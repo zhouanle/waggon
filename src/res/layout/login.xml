@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg1"
+    >
+    <ImageView android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:src="@drawable/logo"/>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	android:background="@drawable/login_bg"
+    	>
+    	<ImageView android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:src="@drawable/namepassword"/>
+    	<!-- <TextView  
+    		android:layout_width="70dip" 
+    		android:layout_height="wrap_content" 
+    		android:text="@string/login_user"
+    		android:gravity="right"
+    		/> -->
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:orientation="vertical"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	>
+    	<EditText 
+	    	android:id="@+id/login_user_edit"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	       	android:maxEms="8"
+        	android:minEms="8"
+        	android:background="@drawable/input"
+        	android:layout_marginBottom="10dip"
+	        />
+	    <EditText 
+	    	android:id="@+id/login_pwd_edit"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:maxEms="8"
+        	android:minEms="8"
+        	android:password="true"
+        	android:background="@drawable/input"
+        	android:layout_marginTop="10dip"
+	        />
+		</LinearLayout>
+    </LinearLayout>
+    <!-- <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	>
+    	<TextView  
+    		android:layout_width="70dip" 
+    		android:layout_height="wrap_content" 
+    		android:text="@string/login_pwd"
+    		android:gravity="right"
+    		/>
+    	<EditText 
+	    	android:id="@+id/login_pwd_edit"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:maxEms="8"
+        	android:minEms="8"
+        	android:password="true"
+        	android:background="@drawable/input"
+	        />
+    </LinearLayout> -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	>
+    	<Button android:id="@+id/login_btn"
+    		android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:background="@drawable/login_down"
+	        />
+	    <Button android:id="@+id/login_forget_pwd"
+    		android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:background="@drawable/forget"
+	        />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

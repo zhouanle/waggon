@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<WorkList id="1" operator="Worker1" complete_date="2011-4-20">
+		<Line id="1" result="pass">
+			<Tower id="1" type="1" result="pass"/>
+			<Tower id="2" type="1" result="pass"/>
+		</Line>
+	  	<Line id="2" result="fail">
+			<Tower id="1" type="1" result="pass">
+				<Item id="1" result="pass"/>
+				<Item id="2" result="fail" reason="连接不稳" attachment="/sdcar/tcd/report/xxx.jpg"/>
+			</Tower>
+			<Tower id="2" type="2" result="fail">
+				<Item id="1" result="pass"/>
+			</Tower>
+		</Line>
+</WorkList>

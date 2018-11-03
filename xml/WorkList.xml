@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<WorkList id="1" operator="Worker1" execute_date="2011-4-20" description="第一号工单，执行人，计划安排如下：">
+		<Line id="1" name="线路1">
+			<Tower id="1" type="1" lat="39.98195174" long="116.40880386666666" addr="望京1号塔"/>
+			<Tower id="2" type="2" lat="39.1122" long="119.1122" addr="望京2号塔"/>
+			<Tower id="3" type="3" lat="39.1133" long="119.1133" addr="望京3号塔"/>
+			<Tower id="4" type="4" lat="39.1144" long="119.1144" addr="望京4号塔"/>
+			<Tower id="5" type="5" lat="39.1155" long="119.1155" addr="望京5号塔"/>
+		</Line>
+	  <!--<Line id="2" name="线路2">
+			<Tower id="1" type="1" lat="39.2133" long="119.2133" addr="东坝1号塔"/>
+			<Tower id="2" type="2" lat="39.2144" long="119.2144" addr="东坝2号塔"/>
+		</Line>-->
+</WorkList>

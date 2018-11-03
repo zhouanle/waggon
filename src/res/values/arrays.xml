@@ -1,0 +1,6 @@
+<resources>
+    <string-array name="choices">
+        <item>通过</item>
+        <item>未通过</item>
+    </string-array>
+</resources>
